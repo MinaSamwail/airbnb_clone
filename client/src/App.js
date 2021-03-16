@@ -1,9 +1,18 @@
 import "./App.css";
+import Home from "./views/Home";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="app">
-      <h1>Salut</h1>
+      <Header />
+      <Home />
+
+      {/* Banner */}
+
+      {/* Cards */}
+
+      {/* Footer */}
     </div>
   );
 }
